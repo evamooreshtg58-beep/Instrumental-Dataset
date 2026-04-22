@@ -9,9 +9,7 @@ GitHub Repository: https://github.com/evamooreshtg58-beep/Instrumental-Dataset
 A large-scale, multi-source dataset for detecting AI-generated music and tracing generation models.
 7,045 audio clips (30s each) | 4 sources (Human, MusicGen, Suno, Doubao) | 8+ musical styles
 
-================================================================================
 DATASET OVERVIEW
-================================================================================
 
 This dataset is designed to facilitate research on distinguishing human-composed 
 music from AI-generated content, as well as identifying the specific generative 
@@ -32,9 +30,7 @@ All audio files are stored in WAV or MP3 format, and all have been trimmed/padde
 to exactly 30 seconds during feature extraction. The human subset covers diverse 
 instrumental genres including blues, classical, jazz, electronic, and more.
 
-================================================================================
 REPOSITORY STRUCTURE
-================================================================================
 
 release_dataset/
     README.md
@@ -56,9 +52,7 @@ Metadata file (file_list.csv) columns:
     source  - Categorical label (Human, MusicGen, Suno, Doubao)
     style   - Musical genre (e.g., blues, classical)
 
-================================================================================
 DOWNLOAD INSTRUCTIONS
-================================================================================
 
 The full audio dataset is available as a compressed tar.gz archive tracked with 
 Git LFS in this repository. To download:
@@ -73,9 +67,7 @@ Git LFS in this repository. To download:
 If you only need the metadata, you can download file_list.csv directly from the 
 repository without cloning the entire dataset.
 
-================================================================================
 INTENDED USE CASES
-================================================================================
 
 - Binary Classification: Human vs. AI-generated music.
 - Multi-class Source Attribution: Identify which AI model (MusicGen, Suno, or 
@@ -85,9 +77,7 @@ INTENDED USE CASES
 - Benchmarking: Evaluate robustness of detection models across different 
   generative architectures.
 
-================================================================================
 LICENSE & ATTRIBUTION
-================================================================================
 
 - Human subset (FMA): Derived from the Free Music Archive, used under 
   CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/).
@@ -106,9 +96,7 @@ If you use this dataset in your research, please cite as follows:
   howpublished = {\url{https://github.com/evamooreshtg58-beep/Instrumental-Dataset}}
 }
 
-================================================================================
 CONTACT
-================================================================================
 
 For questions, collaboration, or to report issues, please open an issue on GitHub 
 or contact: Wang Kehan - 2276935971@qq.com
@@ -116,9 +104,7 @@ or contact: Wang Kehan - 2276935971@qq.com
 If you find this dataset useful, please consider starring the repository!
 
 
-################################################################################
 ##############################  中文说明  ######################################
-################################################################################
 
 AI 音乐检测数据集
 
